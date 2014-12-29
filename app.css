@@ -14,10 +14,6 @@ body, html {
   font-family: 'Open Sans' sans-serif;
 }
 
-p {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -62,6 +58,7 @@ a {
 
 #currentHex {
   font-size: 2em;
+  font-weight: 300;
 }
 
 #github {

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HexTime</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="app.css" />
+  </head>
+  <body onload="clockit()">
+    <section id="colorful">
+      <div id="time">
+        <div class="timeContainer">
+          <span id="hour"></span><span> :</span>
+        </div>
+        <div class="timeContainer">
+          <span id="minute"></span><span> :</span>
+        </div>
+        <div class="timeContainer">
+          <span id="second"></span>
+        </div>
+      </div>
+      <div id="currentHex" class="centered buffer"></div>
+      <div id="date" class="centered"></div>
+      <a id="github" target="_blank" href="https://github.com/shawntaylord">
+        View source on GitHub&nbsp&nbsp
+      </a>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

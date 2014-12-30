@@ -26,6 +26,10 @@ a {
   margin: 25px 0;
 }
 
+.smallText {
+  font-size: 1em;
+}
+
 #colorful {
   height: 100%;
   width: 100%;
@@ -46,7 +50,15 @@ a {
   float: left;
   font-size: 10em;
   font-weight: 300;
-  width: 33%;
+  width: 30%;
+  text-align: center;
+}
+
+.smallContainer {
+  float: left;
+  font-size: 10em;
+  font-weight: 300;
+  width: 5%;
   text-align: center;
 }
 
@@ -65,6 +77,7 @@ a {
   position: absolute;
   bottom: 15px;
   right: 15px;
+
   color: inherit;
   border-right-style: solid;
   border-right-width: 0px;
@@ -77,4 +90,18 @@ a {
 #github:hover,
 #github:focus {
   border-right-width: 3px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body, html {
+    font-size: 4px;
+  }
+
+  .smallText {
+    font-size: 2em;
+  }
+
+  #colorful {
+    padding-top: 10%;
+  }
 }

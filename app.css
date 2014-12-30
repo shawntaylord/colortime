@@ -94,6 +94,20 @@ a {
 
 @media only screen and (max-width: 1024px) {
   body, html {
+    font-size: 8px;
+  }
+
+  .smallText {
+    font-size: 1em;
+  }
+
+  #colorful {
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  body, html {
     font-size: 4px;
   }
 
